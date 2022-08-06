@@ -7,9 +7,21 @@ package to import js into go.
 the way it works is so simple just call:
 
 ```go
-fmt.Println(farsi_reshaper.ReshapeToFarsi("سلام احوال شما؟"))
+package main
+
+import (
+	"fmt"
+	"github.com/javad-majidi/farsi-reshaper"
+)
+
+func main() {
+	fmt.Println(farsi_reshaper.ReshapeToFarsi("سلام احوال شما؟"))
+}
+
 ```
-output:
+output(reshaped farsi):
 ```
 ؟ﺎﻤﺷ ﻝﺍﻮﺣﺍ ﻡﻼﺳ
 ```
+
+it is extremely useful for some packages like [Fyne](https://github.com/fyne-io/fyne) or other desktop packages in `arabic` and `farsi` languages.
