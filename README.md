@@ -4,8 +4,11 @@ Farsi reshaper written in go
 i just used http://bobardo.com/reshaper/ opensource javascript and extracted the core code and also used https://github.com/robertkrimen/otto 
 package to import js into go.
 
-the way it works is so simple just call:
-
+the way it works is so simple just run the following in the terminal to get the package:
+```
+go get github.com/javad-majidi/farsi-reshaper
+```
+then write this sample code:
 ```go
 package main
 
