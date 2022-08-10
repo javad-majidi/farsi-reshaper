@@ -18,7 +18,7 @@ import (
 )
 
 func main() {
-	fmt.Println(farsi_reshaper.ReshapeToFarsi("سلام احوال شما؟"))
+	fmt.Println(FarsiReshaper.Reshape("سلام احوال شما؟"))
 }
 
 ```
@@ -28,3 +28,5 @@ output(reshaped farsi):
 ```
 
 it is extremely useful for some packages like [Fyne](https://github.com/fyne-io/fyne) or other desktop packages in `arabic` and `farsi` languages.
+
+It also has some unit tests and code coverage.
