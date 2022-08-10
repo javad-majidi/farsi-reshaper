@@ -1,10 +1,10 @@
-package farsi_reshaper
+package FarsiReshaper
 
 import (
 	"github.com/robertkrimen/otto"
 )
 
-func ReshapeToFarsi(input string) string {
+func Reshape(input string) string {
 	vm := otto.New()
 	_, err := vm.Run(`
 //default Values:
