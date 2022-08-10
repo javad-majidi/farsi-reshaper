@@ -6,7 +6,7 @@ package to import js into go.
 
 the way it works is so simple just run the following in the terminal to get the package:
 ```
-go get github.com/javad-majidi/farsi-reshaper
+go get github.com/javad-majidi/farsi-reshaper@v1.0.1
 ```
 then write this sample code:
 ```go
